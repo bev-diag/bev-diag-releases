@@ -29,7 +29,7 @@ prywatny.
 Potwierdzone (sprawdzone z aplikacją):
 
 - Konnwei KW905
-- Querk KW905
+- Qerk KW905
 
 Inne adaptery ELM327/STN mogą działać, ale nie są jeszcze potwierdzone.
 Aplikacja łączy się przez:
@@ -98,7 +98,7 @@ private.
 Confirmed (tested with the app):
 
 - Konnwei KW905
-- Querk KW905
+- Qerk KW905
 
 Other ELM327/STN adapters may work but are not confirmed yet. The app
 connects over:

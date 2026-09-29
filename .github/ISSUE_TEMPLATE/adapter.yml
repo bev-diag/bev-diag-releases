@@ -1,0 +1,57 @@
+name: Działający adapter / Working adapter
+description: Adapter spoza listy potwierdzonych działa z aplikacją / An adapter not on the confirmed list works with the app
+title: "Adapter: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Dzięki! Każdy potwierdzony adapter trafi na listę w README.
+        Thanks! Every confirmed adapter goes on the list in the README.
+  - type: input
+    id: adapter
+    attributes:
+      label: Adapter (marka i model) / Adapter (make and model)
+      placeholder: Vgate iCar Pro 2S
+    validations:
+      required: true
+  - type: dropdown
+    id: connection
+    attributes:
+      label: Połączenie / Connection
+      options:
+        - Bluetooth LE
+        - Bluetooth klasyczny / Bluetooth Classic
+        - WiFi
+    validations:
+      required: true
+  - type: input
+    id: car
+    attributes:
+      label: Samochód / Car
+      placeholder: Nissan Leaf 30 kWh, 2016
+    validations:
+      required: true
+  - type: input
+    id: phone
+    attributes:
+      label: Telefon i Android / Phone and Android version
+      placeholder: Xiaomi Redmi Note 12, Android 14
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Wersja aplikacji / App version
+      description: Ustawienia → Wersja testowa / Settings → Test build
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Uwagi / Notes
+      description: Coś nie działało albo działało inaczej? / Anything that did not work or worked differently?
+  - type: textarea
+    id: log
+    attributes:
+      label: Log ruchu adaptera / Adapter traffic log
+      description: Ustawienia → Logi ruchu adaptera; przeciągnij plik tutaj (opcjonalnie) / Settings → Adapter traffic logs; drag the file here (optional)

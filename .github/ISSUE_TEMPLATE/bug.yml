@@ -1,0 +1,36 @@
+name: Błąd / Bug
+description: Coś nie działa albo pokazuje złe wartości / Something is broken or shows wrong values
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Wersja aplikacji / App version
+      description: Ustawienia → Wersja testowa / Settings → Test build
+    validations:
+      required: true
+  - type: input
+    id: car
+    attributes:
+      label: Samochód / Car
+      placeholder: Nissan Leaf 30 kWh, 2016
+    validations:
+      required: true
+  - type: input
+    id: adapter
+    attributes:
+      label: Adapter i telefon / Adapter and phone
+      placeholder: Konnwei KW905 (BLE), Xiaomi Redmi Note 12, Android 14
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: Co się stało? / What happened?
+      description: Co zrobiłeś, czego się spodziewałeś, co się stało / What you did, what you expected, what happened
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Log ruchu adaptera / Adapter traffic log
+      description: Ustawienia → Logi ruchu adaptera; przeciągnij plik tutaj / Settings → Adapter traffic logs; drag the file here

@@ -26,9 +26,19 @@ prywatny.
 
 ### Adaptery
 
-- Bluetooth LE (np. Konnwei KW905, Vgate, OBDLink CX)
+Potwierdzone (sprawdzone z aplikacją):
+
+- Konnwei KW905
+- Querk KW905
+
+Inne adaptery ELM327/STN mogą działać, ale nie są jeszcze potwierdzone.
+Aplikacja łączy się przez:
+
+- Bluetooth LE
 - Bluetooth klasyczny (najpierw sparuj adapter w ustawieniach telefonu)
 - WiFi (domyślnie 192.168.0.10:35000)
+
+Działa Ci inny adapter? Daj znać w zgłoszeniu, dopiszemy go do listy.
 
 ### Ważne: to wersja testowa
 
@@ -85,9 +95,20 @@ private.
 
 ### Adapters
 
-- Bluetooth LE (e.g. Konnwei KW905, Vgate, OBDLink CX)
+Confirmed (tested with the app):
+
+- Konnwei KW905
+- Querk KW905
+
+Other ELM327/STN adapters may work but are not confirmed yet. The app
+connects over:
+
+- Bluetooth LE
 - Bluetooth Classic (pair the adapter in the phone's settings first)
 - WiFi (default 192.168.0.10:35000)
+
+Another adapter works for you? Tell us in an issue and we will add it to
+the list.
 
 ### Important: this is a test build
 

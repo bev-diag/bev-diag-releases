@@ -20,9 +20,6 @@ prywatny.
    na telefonie i pobierz plik `.apk`.
 2. Otwórz pobrany plik. Android zapyta o zgodę na instalację z tego
    źródła (przeglądarki lub menedżera plików); zezwól.
-3. Przy **pierwszym uruchomieniu** telefon musi mieć internet: aplikacja
-   sprawdza, czy ta wersja jest aktualna. Potem działa także bez
-   internetu, np. podłączona do WiFi adaptera.
 
 ### Adaptery
 
@@ -46,10 +43,8 @@ dopiszemy go do listy.
 
 - Aplikacja może pokazywać błędne wartości. Nie podejmuj na ich podstawie
   decyzji o zakupie lub naprawie auta.
-- Każda wersja testowa działa **90 dni** od zbudowania. 14 dni przed
-  końcem aplikacja o tym przypomni; wtedy pobierz nowszą.
-- Wersję z poważnym błędem możemy zdalnie wyłączyć. Aplikacja powie
-  wtedy, żeby pobrać nową; nagrane sesje nadal da się wyeksportować.
+- Wersje testowe mają ograniczony czas działania; aplikacja powie, kiedy
+  pobrać nowszą.
 
 ### Zgłaszanie błędów
 
@@ -75,9 +70,6 @@ private.
    on your phone and download the `.apk` file.
 2. Open the downloaded file. Android asks whether to allow installing from
    that source (the browser or file manager); allow it.
-3. On the **first start** the phone needs the internet: the app checks
-   that this version is current. After that it also works offline, e.g.
-   connected to the adapter's WiFi.
 
 ### Adapters
 
@@ -101,10 +93,8 @@ and we will add it to the list.
 
 - The app may show wrong values. Do not base decisions about buying or
   repairing a car on them.
-- Each test build works for **90 days** after it was built. The app
-  reminds you 14 days before the end; get a newer one then.
-- A build with a serious bug can be switched off remotely. The app then
-  tells you to get a new one; recorded sessions can still be exported.
+- Test builds work for a limited time; the app tells you when to get a
+  newer one.
 
 ### Reporting problems
 

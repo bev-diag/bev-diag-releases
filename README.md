@@ -57,22 +57,6 @@ dopiszemy go do listy.
 (potrzebne konto GitHub). Bardzo pomaga log ruchu adaptera:
 Ustawienia → Logi ruchu adaptera → Udostępnij ostatni log.
 
-### Dla opiekunów
-
-Plik `latest.json` na gałęzi `main` czyta każda wersja testowa:
-
-| Pole | Działanie |
-|---|---|
-| `latest` | nowsza niż zainstalowana wersja: baner z linkiem do pobrania |
-| `min_version` | zainstalowana wersja starsza niż ta: aplikacja jest zablokowana |
-| `sunset` | `true`: baner „Testy zakończone”; ustaw `url` na sklep |
-| `message` | opcjonalna wiadomość w danym języku, np. `{"pl": "…", "en": "…"}` |
-| `url` | link do pobrania; domyślnie najnowsze wydanie |
-
-Uszkodzony `latest.json` sprawia, że żadna świeżo zainstalowana wersja
-się nie uruchomi. Przed wypchnięciem sprawdź go:
-`python3 -m json.tool latest.json`.
-
 ---
 
 ## English
@@ -127,18 +111,3 @@ and we will add it to the list.
 [Open an issue](https://github.com/bev-diag/bev-diag-releases/issues/new/choose)
 (needs a GitHub account). The adapter traffic log helps a lot:
 Settings → Adapter traffic logs → Share latest log.
-
-### For maintainers
-
-Every test build reads `latest.json` on the `main` branch:
-
-| Field | Effect |
-|---|---|
-| `latest` | newer than the installed build: banner with a download link |
-| `min_version` | installed build older than this: the app is blocked |
-| `sunset` | `true`: banner "Testing has ended"; point `url` at the store |
-| `message` | optional note by language, e.g. `{"pl": "…", "en": "…"}` |
-| `url` | download link; defaults to the latest release |
-
-A broken `latest.json` stops every newly installed build from starting.
-Check it before pushing: `python3 -m json.tool latest.json`.

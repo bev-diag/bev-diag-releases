@@ -38,7 +38,9 @@ Aplikacja łączy się przez:
 - Bluetooth klasyczny (najpierw sparuj adapter w ustawieniach telefonu)
 - WiFi (domyślnie 192.168.0.10:35000)
 
-Działa Ci inny adapter? Daj znać w zgłoszeniu, dopiszemy go do listy.
+Działa Ci inny adapter? Koniecznie
+[daj znać](https://github.com/bev-diag/bev-diag-releases/issues/new?template=adapter.yml),
+dopiszemy go do listy.
 
 ### Ważne: to wersja testowa
 
@@ -107,8 +109,9 @@ connects over:
 - Bluetooth Classic (pair the adapter in the phone's settings first)
 - WiFi (default 192.168.0.10:35000)
 
-Another adapter works for you? Tell us in an issue and we will add it to
-the list.
+Another adapter works for you? Be sure to
+[let us know](https://github.com/bev-diag/bev-diag-releases/issues/new?template=adapter.yml),
+and we will add it to the list.
 
 ### Important: this is a test build
 

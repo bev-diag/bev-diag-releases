@@ -52,6 +52,11 @@ dopiszemy go do listy.
 (potrzebne konto GitHub). Bardzo pomaga log ruchu adaptera:
 Ustawienia → Logi ruchu adaptera → Udostępnij ostatni log.
 
+### Kontakt
+
+Pytania, uwagi albo zgłoszenie bez konta GitHub:
+[bevdiag@gmail.com](mailto:bevdiag@gmail.com)
+
 ---
 
 ## English
@@ -101,3 +106,8 @@ and we will add it to the list.
 [Open an issue](https://github.com/bev-diag/bev-diag-releases/issues/new/choose)
 (needs a GitHub account). The adapter traffic log helps a lot:
 Settings → Adapter traffic logs → Share latest log.
+
+### Contact
+
+Questions, feedback, or a report without a GitHub account:
+[bevdiag@gmail.com](mailto:bevdiag@gmail.com)

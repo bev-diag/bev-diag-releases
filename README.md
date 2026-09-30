@@ -7,9 +7,8 @@
 ## Polski
 
 Testowe wersje aplikacji **BEV Diag** na Androida: diagnostyka baterii
-trakcyjnej samochodów elektrycznych przez adapter OBD (ELM327/STN), w
-duchu LeafSpy Pro. Na razie obsługiwany jest **Nissan Leaf** (testowany
-na AZE0).
+trakcyjnej samochodów elektrycznych przez adapter OBD (ELM327/STN). Na razie obsługiwany jest **Nissan
+Leaf** (testowany na AZE0).
 
 To repozytorium zawiera tylko wydania (pliki APK). Kod aplikacji jest
 prywatny.
@@ -123,9 +122,8 @@ Pytania, uwagi albo zgłoszenie bez konta GitHub:
 ## English
 
 Test builds of the **BEV Diag** app for Android: traction battery
-diagnostics for electric cars over an OBD adapter (ELM327/STN), in the
-spirit of LeafSpy Pro. For now the **Nissan Leaf** is supported (tested
-on the AZE0).
+diagnostics for electric cars over an OBD adapter (ELM327/STN). For now the
+**Nissan Leaf** is supported (tested on the AZE0).
 
 This repository holds releases (APK files) only. The app's source code is
 private.

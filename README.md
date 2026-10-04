@@ -6,6 +6,12 @@
 
 ## Polski
 
+> **Testy przez GitHub zostały zakończone.** Aplikacja jest teraz w
+> oficjalnych testach Google Play:
+> [dołącz do testów](https://play.google.com/apps/testing/com.bevdiag.app)
+> i zainstaluj ją ze sklepu. Wersje APK z tego repozytorium przestały
+> działać; poniższa instrukcja zostaje tylko dla porządku.
+
 Testowe wersje aplikacji **BEV Diag** na Androida: diagnostyka baterii
 trakcyjnej samochodów elektrycznych przez adapter OBD (ELM327/STN). Na razie obsługiwany jest **Nissan
 Leaf** (testowany na AZE0).
@@ -120,6 +126,12 @@ Pytania, uwagi albo zgłoszenie bez konta GitHub:
 ---
 
 ## English
+
+> **Testing through GitHub has ended.** The app is now in the official
+> Google Play test:
+> [join the test](https://play.google.com/apps/testing/com.bevdiag.app)
+> and install it from the store. The APK builds from this repository no
+> longer work; the instructions below are kept for reference only.
 
 Test builds of the **BEV Diag** app for Android: traction battery
 diagnostics for electric cars over an OBD adapter (ELM327/STN). For now the

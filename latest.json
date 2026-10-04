@@ -1,7 +1,10 @@
 {
   "latest": "0.2.4",
-  "min_version": "0.1.0",
-  "sunset": false,
-  "message": {},
-  "url": "https://github.com/bev-diag/bev-diag-releases/releases/latest"
+  "min_version": "0.2.5",
+  "sunset": true,
+  "message": {
+    "pl": "Testy z GitHuba zakończone. Zapraszamy na oficjalne testy w Google Play: dołącz do nich i zainstaluj aplikację ze sklepu.",
+    "en": "Testing through GitHub has ended. Join the official test on Google Play and install the app from the store."
+  },
+  "url": "https://play.google.com/apps/testing/com.bevdiag.app"
 }
